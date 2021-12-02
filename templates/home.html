@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="col">
+
+
+    <div class="col mt-5">
+        <style type="text/css">
+            body{background-color:  linear-gradient(297.92deg, rgba(195, 163, 246, 0.83) -0.91%, rgba(255, 255, 255, 0.83) 99.05%);}
+        </style>
+        <h1 style=" text-align:center;font-family: 'Roboto', Times, serif; margin-top: 250px; padding: 15px; font-size: 100px;"><span style="color:#A0C1B8;"><b>Glu</b></span><span style="color: #A0C1B8;"><b>gle</b></span></h1>
+    </div>
+
+
+    <form class="mt-5 container" name="search" style="width: 50%; " action="/search_results">
+        <div class="col-6 mx-auto input-group">
+            <input type="text" class="form-control" name="search" placeholder="search..." style="position:absolute;width:  700px;height: 60px;">
+            <button type="submit" class="btn btn-success" style="background-color:#3E7C17;left: 670px;;width: 124px;height: 60px">Search</button>
+        </div>
+    </form>
+</div>
+{% endblock %}
